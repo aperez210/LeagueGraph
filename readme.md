@@ -1,6 +1,6 @@
 # Alex Deep Dive Report - Charlotte of Elsweyr Edition
 
-![Charlotte](../.github/assets/Charlotte.png)
+![Charlotte](/.github/assets/Charlotte.png)
 
 Date: 2026-05-22  
 Scope: /mnt/ApocryPool/Users/alex  
@@ -309,14 +309,14 @@ Compare-and-contrast read: Alex with Isaac trends slightly better in raw win rat
 
 Top individual augments:
 
-- Demon's Dance (ID 23): 77 picks
-- Thread the Needle (ID 84): 44 picks
-- Outlaw's Grit (ID 63): 42 picks
-- Goredrink (ID 138): 39 picks
-- Clown College (ID 310): 37 picks
-- escAPADe (ID 206): 36 picks
-- Energetic (ID 344): 36 picks
-- Jeweled Gauntlet (ID 48): 35 picks
+- ![Demon's Dance](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/demonsdance_small.png) Demon's Dance: 77 picks
+- ![Thread the Needle](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/threadtheneedle_small.png) Thread the Needle: 44 picks
+- ![Outlaw's Grit](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/outlawsgrit_small.png) Outlaw's Grit: 42 picks
+- ![Goredrink](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/goredrink_small.png) Goredrink: 39 picks
+- ![Clown College](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/clowncollege_small.png) Clown College: 37 picks
+- ![escAPADe](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/escapade_small.png) escAPADe: 36 picks
+- ![Energetic](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/energetic_small.png) Energetic: 36 picks
+- ![Jeweled Gauntlet](https://raw.communitydragon.org/latest/game/assets/ux/cherry/augments/icons/jeweledgauntlet_small.png) Jeweled Gauntlet: 35 picks
 
 ```mermaid
 %%{init: {'themeVariables': {
@@ -371,6 +371,74 @@ pie showData
 
 Charlotte's read: the augment data is finally clean enough to say something useful, and what it says is delicious. Alex favors repeatable combat identities with strong scaling, crit pressure, and tempo-commit tools without abandoning the underlying kill-first instincts that define the whole account. The claws do not flail; they pick angles, commit hard, and vanish into moonlight. By Jone and Jode!
 
+
+---
+
+## Temporal Patterns (Tracks in the Sand)
+
+Large file-ingest waves:
+- 2024-11: 3,037 files
+- 2025-01: 1,104 files
+- 2025-06: 278 files
+- 2026-04: 2,995 files
+- 2026-05: 144 files (as of scan)
+
+Most recent hot activity points strongly at modern PC competitive paths (notably Steam-side updates and activity near Counter-Strike assets).
+
+Interpretation: Alex works in bursts, curates in chunks, and still returns to live-service battlegrounds for present-tense play.
+
+---
+
+## Technical Nerd Read (Charlotte Approves)
+
+Alex's folder includes a League API project with modern tooling choices (FastAPI + Svelte + UV + Bun). This one sees practical builder energy, not just cosmetic tinkering:
+
+- backend routes and API wiring exist
+- frontend scaffold and tooling are coherent
+- documentation still has template residue
+
+Inference: Alex is in the tasty middle phase where curiosity has already turned into shipped prototypes, but process claws can still get sharper.
+
+---
+
+## Risks and Cold-Sand Warnings
+
+- Personal docs, keys, captures, and dev artifacts live close together.
+- Mixed storage strategy raises accidental-share risk.
+- Very large media footprint will eventually force hard storage choices.
+
+Charlotte recommends:
+1. Split personal/security artifacts into stricter zones.
+2. Push cold archives to secondary storage tiers.
+3. Keep automated monthly inventory snapshots.
+4. Protect irreplaceable recordings with separate backup policy.
+
+---
+
+## Charlotte's Final Read on Alex
+
+Alex is a lovable digital hoarder with refined claws, chaotic shelves, and real taste buried under a few mainstream compromises.
+
+This one sees a player who:
+- chases mastery,
+- protects nostalgia,
+- tolerates some mass-market noise,
+- and still curates with soul.
+
+If this den were a song, it would begin with a CRT hum, hit a Sonic drumroll, and end in sweaty ranked overtime.
+
+Bright moons light Alex's path.
+
+---
+
+## Lore and Style Anchors
+
+Khajiit style and phrasing in this report follows:
+- [configs/llm/knowledge-files/Khajiit-Phrasing.md](/configs/llm/knowledge-files/Khajiit-Phrasing.md)
+- [Khajiit lore and language notes on UESP](https://en.uesp.net/wiki/Lore:Khajiit)
+
+End of report.
+Scope: /mnt/ApocryPool/Users/alex
 ---
 
 ## Complete Gaming Library
@@ -440,69 +508,3 @@ Date field note: "Date game last accessed" is represented by latest on-disk modi
 | Nintendo Wii | Dragon Ball Z - Budokai Tenkaichi 3 | Dolphin | 2024-03-22 | Budokai Tenkaichi 3 is still represented, and this one hears the call of big anime toybox combat. The roster invites experimentation, and Alex keeps it because expressive chaos can still feel honest. Jone guide this one! |
 | Nintendo Wii | Super Mario Galaxy 2 | Dolphin | 2019-04-16 | Galaxy 2 remains preserved despite age, and this one sees archival instinct stronger than recency bias. Old tracks still carry meaning, and Alex keeps it because memory is part of play. By Azurah! |
 
----
-
-## Temporal Patterns (Tracks in the Sand)
-
-Large file-ingest waves:
-- 2024-11: 3,037 files
-- 2025-01: 1,104 files
-- 2025-06: 278 files
-- 2026-04: 2,995 files
-- 2026-05: 144 files (as of scan)
-
-Most recent hot activity points strongly at modern PC competitive paths (notably Steam-side updates and activity near Counter-Strike assets).
-
-Interpretation: Alex works in bursts, curates in chunks, and still returns to live-service battlegrounds for present-tense play.
-
----
-
-## Technical Nerd Read (Charlotte Approves)
-
-Alex's folder includes a League API project with modern tooling choices (FastAPI + Svelte + UV + Bun). This one sees practical builder energy, not just cosmetic tinkering:
-
-- backend routes and API wiring exist
-- frontend scaffold and tooling are coherent
-- documentation still has template residue
-
-Inference: Alex is in the tasty middle phase where curiosity has already turned into shipped prototypes, but process claws can still get sharper.
-
----
-
-## Risks and Cold-Sand Warnings
-
-- Personal docs, keys, captures, and dev artifacts live close together.
-- Mixed storage strategy raises accidental-share risk.
-- Very large media footprint will eventually force hard storage choices.
-
-Charlotte recommends:
-1. Split personal/security artifacts into stricter zones.
-2. Push cold archives to secondary storage tiers.
-3. Keep automated monthly inventory snapshots.
-4. Protect irreplaceable recordings with separate backup policy.
-
----
-
-## Charlotte's Final Read on Alex
-
-Alex is a lovable digital hoarder with refined claws, chaotic shelves, and real taste buried under a few mainstream compromises.
-
-This one sees a player who:
-- chases mastery,
-- protects nostalgia,
-- tolerates some mass-market noise,
-- and still curates with soul.
-
-If this den were a song, it would begin with a CRT hum, hit a Sonic drumroll, and end in sweaty ranked overtime.
-
-Bright moons light Alex's path.
-
----
-
-## Lore and Style Anchors
-
-Khajiit style and phrasing in this report follows:
-- [configs/llm/knowledge-files/Khajiit-Phrasing.md](configs/llm/knowledge-files/Khajiit-Phrasing.md)
-- [Khajiit lore and language notes on UESP](https://en.uesp.net/wiki/Lore:Khajiit)
-
-End of report.
